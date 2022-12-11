@@ -1,0 +1,10 @@
+<suite name="Smoke test suite">
+    <listeners>
+        <listener class-name="InfluxDBListener" />
+    </listeners>
+    <test name="Test1">
+        <classes>
+            <class name="SeleniumTest"/>
+        </classes>
+    </test>
+</suite>
