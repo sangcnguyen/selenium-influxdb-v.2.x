@@ -1,6 +1,5 @@
 import com.influxdb.client.InfluxDBClient;
 import com.influxdb.client.InfluxDBClientFactory;
-import com.influxdb.client.WriteApiBlocking;
 import com.influxdb.client.write.Point;
 
 public class InfluxDBHelper {
